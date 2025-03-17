@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.panel {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #3EC577;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f0f0f0;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-edit {
+    background-color: #2ec64f;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-edit:hover {
+    background-color: #34a64d;
+}
+
+.btn-delete {
+    background-color: #e83925;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
+
+.no-users {
+    color: #777;
+    padding: 20px;
+}
+
+.logout {
+    margin-top: 20px;
+}
+
+.logout-link {
+    color: #218838;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.logout-link:hover {
+    text-decoration: underline;
+}
